@@ -10,7 +10,7 @@ load_dotenv()
 client = genai.Client()
 
 # Load the logo
-LOGO_PATH = "/home/ubuntu/Sh/image_on_superbike/logo.jpeg"
+LOGO_PATH = "./logo.jpeg"
 
 from PIL import ImageDraw, ImageFont
 
